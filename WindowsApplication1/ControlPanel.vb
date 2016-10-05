@@ -5,16 +5,16 @@
     Dim df_videoFilters As String = "*.mp4;*.webm;*.3gp".ToUpper
     Dim df_imageFilters As String = "*.bmp;*.jpg;*.png;*.gif;*.jpeg".ToUpper
     Dim df_audioFilters As String = "*.mp3;*.m4a".ToUpper
-    Dim df_urlToWOLSearch As String = "http://wol.jw.org/es/wol/l/r4/lp-s?q="
-    Dim df_sitioOficial As String = "http://jw.org/es/"
-    Dim df_sitioWOL As String = "http://wol.jw.org/es/"
-    Dim df_sitioBroadcasting As String = "http://tv.jw.org/#es"
+    Dim df_urlToWOLSearch As String = "http://wol.jw.org/pt/wol/l/r4/lp-s?q="
+    Dim df_sitioOficial As String = "http://jw.org/pt/"
+    Dim df_sitioWOL As String = "http://wol.jw.org/pt/"
+    Dim df_sitioBroadcasting As String = "http://tv.jw.org/#pt"
     Dim df_fileImageBackgroundDefault As String = "Por defecto"
-    Dim df_CarpetaCanciones As String = df_CarpetaRecursos + "\Canciones\"
-    Dim df_CarpetaGrabaciones As String = df_CarpetaRecursos + "\Grabaciones\"
+    Dim df_CarpetaCanciones As String = df_CarpetaRecursos + "\Cânticos\"
+    Dim df_CarpetaGrabaciones As String = df_CarpetaRecursos + "\Gravações\"
     Dim df_NombreArchivoCancionesAntes = "iasn_S_"
     Dim df_NombreArchivoCancionesDespues = ".mp3"
-    Dim df_LanguageID = "ES_AR"
+    Dim df_LanguageID = "PT_BR"
     Dim df_Melodias = vbTrue
     ' Valores que se usarán
     Dim videoFilters As String = df_videoFilters
@@ -51,7 +51,7 @@
         tooglePresentacion()
     End Sub
     ''' <summary>
-    ''' Inicia o cierra el Presentador, según sea el caso, verificando si hay un segundo monitor, de lo contrario se mostrará en el monitor principal, previa confirmación.
+        ''' Inicia o encerra o Apresentador, se for o caso, verificando se há um segundo monitor, do contrário se mostrará no monitor principal, confirmação prévia.
     ''' </summary>
     ''' <returns>Devuelve true/false en caso de que se haya completado la tarea o no.</returns>
     Function tooglePresentacion()
